@@ -15,6 +15,9 @@ class Drive extends DOFFNode {
   constructor () {
     super()
     this.detectElements()
+    const style = document.createElement('style')
+    style.innerText = `.driveoff_scores:not(:empty)::before { background-image: url(${chrome.runtime.getURL('img/icons/32x32-transparent.png')})}`
+    document.body.appendChild(style)
   }
 
   get name () {
