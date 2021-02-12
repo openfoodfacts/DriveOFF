@@ -1,5 +1,5 @@
 drivesList.push(class FrHoura extends Drive {
-  static get driveName () { return 'houra' }
+  static get driveName () { return 'Houra' }
   static get domain () { return /houra\.fr$/ }
   static get lang () { return 'fr' }
   static get country () { return 'france' }

@@ -15,23 +15,23 @@
     {
       "matches": [ "https://*/*" ],
       "css": [
-        "/css/myStyle.css"
+        "/css/content.css"
       ],
       "run_at": "document_idle",
       "js": [
-        "/js/external/slug.js",
-        "/js/lib/DOFFNode.js",
-        "/js/lib/ProductItem.js",
-        "/js/lib/ProductList.js",
-        "/js/lib/Drive.js",
-        "/js/drives/Auchan.js",
-        "/js/drives/Biocoop.js",
-        "/js/drives/Carrefour.js",
-        "/js/drives/Houra.js",
-        "/js/drives/Intermarche.js",
-        "/js/drives/UDrive.js",
-        "/js/external/jbarcode.js",
-        "/js/content_script.js"
+        "/external/slug.js",
+        "/lib/DOFFNode.js",
+        "/lib/ProductItem.js",
+        "/lib/ProductList.js",
+        "/lib/Drive.js",
+        "/drives/Auchan.js",
+        "/drives/Biocoop.js",
+        "/drives/Carrefour.js",
+        "/drives/Houra.js",
+        "/drives/Intermarche.js",
+        "/drives/UDrive.js",
+        "/external/jbarcode.js",
+        "/scripts/content.js"
       ]
     }
   ],
