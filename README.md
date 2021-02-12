@@ -70,5 +70,6 @@ _**DriveOFF** n'est pas encore disponible sur les store d'extensions, l'installa
 * [x] bio.coop (*fiches produit uniquement*)
 * [x] carrefour.fr
 * [ ] cora.fr
+* [x] coursesu.com  (*fiches produit uniquement*)
 * [x] intermarche.com
 * [ ] leclercdrive.fr
