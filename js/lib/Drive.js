@@ -7,7 +7,7 @@ class Drive extends DOFFNode {
   static detect () {
     const Driver = drivesList.find(drive => drive.domain.test(document.domain))
     if (Driver) {
-      console.info('Drive detected:', Driver.driveName, `(${document.domain})`)
+      console.info('[DriveOFF] Drive detected:', Driver.driveName, `(${document.domain})`)
       return new Driver()
     }
   }

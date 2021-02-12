@@ -101,7 +101,6 @@ class ProductItem extends DOFFNode {
   }
 
   searchOFF () {
-    console.info('Search in OFF database')
     searchURL.searchParams.set('search_terms', this.searchQuery)
     return fetch(searchURL, {
       method: 'get',
@@ -126,9 +125,7 @@ class ProductItem extends DOFFNode {
   fetchOFF () {
     return new Promise((resolve, reject) => {
       if (!this.ean) return reject(new Error('Search desactived')) // this.searchOFF()
-      console.info('Fetch from OFF API')
       const api = new URL(this.ean + '.json', apiEndpoint)
-      console.debug('API request', api.pathname)
       return fetch(api, {
         method: 'get',
         cache: 'force-cache',
