@@ -1,5 +1,3 @@
-// https://docs.google.com/document/d/1KEMI0Lrm3rEu-0IGpgXxsbuxjLnV_LemNS27e_LV2aU/edit#heading=h.h5dcl5pi01qr
-
 const manifest = chrome.runtime.getManifest()
 
 const searchURL = new URL('https://fr.openfoodfacts.org/cgi/search.pl')
