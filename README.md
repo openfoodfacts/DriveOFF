@@ -8,19 +8,19 @@ WebExtension for estore (drive) using Open Food Facts Database
 * [x] Chromium
 * [x] Opera
 * [x] Vivaldi
-* [ ] Edge (*non testé*)
+* [ ] Edge (*not tested*)
 
 ## Introduction
 
-Fonctionne avec une poignée de drive pour l'instant, mais utilisant un système [modulaire](./docs/drive_config.md)  
-Ajoute sur les fiches produits les informations suivantes :
+Works with a few e-commerce websites for now, but using a [modular](./docs/drive_config.md) system
+Adds the following information to the product pages:
 
-* [x] Nutri-Score (qualité nutritionnelle de A à E)
-* [x] Groupe Nova (transformation des aliments de 1 à 4)
-* [x] Eco Score (impact environnemental de A à E)
-* [ ] Taux de nutriments
-* [ ] Additifs
-* [ ] Code-barre
+* [x] Nutri-Score (nutritional quality from A to E)
+* [x] Nova group (food processing from 1 to 4)
+* [x] Eco Score (environmental impact from A to E)
+* [ ] Nutrient levels
+* [ ] Additives
+* [ ] Barcode
 
 ### Changes
 * [x] ES6+ refactor
@@ -29,8 +29,7 @@ Ajoute sur les fiches produits les informations suivantes :
 * [x] Fallback to search results when product didn't have EAN (disabled)
 * [x] Nutri/Nova/Eco Scores widget injection into catalogues and lists
 
-
-L'extension utilise les données d'[Open Food Facts](https://fr.openfoodfacts.org/) et la librairie de génération de code-barres [jsBarcode](https://github.com/lindell/JsBarcode)
+The extension uses data from [Open Food Facts](https://world.openfoodfacts.org/) and the barcode generation library [jsBarcode](https://github.com/lindell/JsBarcode)
 
 ## Build
 
@@ -50,32 +49,32 @@ yarn build
 
 ## Installation
 
-_**DriveOFF** n'est pas encore disponible sur les store d'extensions, l'installation se fait depuis les sources._
+_ **DriveOFF** is available on the extension stores, but you can also do the installation from the sources._
 
-* Télécharger la dernière release
-* Décompresser l'archive à l'endroit de votre choix
+* Download the latest release
+* Unzip the archive to the location of your choice
 
 ### Chromium
 
-* Lancer **Chromium**, **Chrome**, **Vivaldi** ou **Opera**
-* Taper dans la barre d'URL `chrome://extensions`
-* Activer le mode développeur
-* Cliquer sur "Chargez l'extension non empaquetée"
-* Sélectionner le dossier où vous avez décompressé la release téléchargée.
+* Launch **Chromium**, **Chrome**, **Vivaldi** or **Opera**
+* Type in the URL bar `chrome://extensions`
+* Activate developer mode
+* Click on "Load the unpackaged extension"
+* Select the folder where you unzipped the downloaded release.
 * Enjoy !
 
 ### Firefox
 
-* Lancer **Firefox**
-* Taper dans la barre d'URL `about:debugging#/runtime/this-firefox`
-* Cliquer sur "Charger un module complémentaire temporaire…"
-* Ouvrir le fichier `manifest.json` dans le dossier où vous avez décompressé la release téléchargée.
+* Launch **Firefox**
+* Type in the URL bar `about:debugging#/runtime/this-firefox`
+* Click on "Load a temporary add-on ..."
+* Open the `manifest.json` file in the folder where you unzipped the downloaded release.
 * Enjoy !
 
-## Liste des drive compatibles
+## List of compatible drives
 
-* [x] auchan.fr (*fiches produit uniquement*)
-* [x] bio.coop (*fiches produit uniquement*)
+* [x] auchan.fr (*product pages only*)
+* [x] bio.coop (*product pages only*)
 * [x] carrefour.fr
 * [ ] cora.fr
 * [x] intermarche.com
