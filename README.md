@@ -22,6 +22,14 @@ Ajoute sur les fiches produits les informations suivantes :
 * [ ] Additifs
 * [ ] Code-barre
 
+### Changes
+* [x] ES6+ refactor
+* [x] Modular Drive configs
+* [x] Nutri/Nova/Eco Scores widget injection into products header
+* [x] Fallback to search results when product didn't have EAN (disabled)
+* [x] Nutri/Nova/Eco Scores widget injection into catalogues and lists
+
+
 L'extension utilise les données d'[Open Food Facts](https://fr.openfoodfacts.org/) et la librairie de génération de code-barres [jsBarcode](https://github.com/lindell/JsBarcode)
 
 ## Build
