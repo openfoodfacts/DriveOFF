@@ -1,7 +1,7 @@
 drivesList.push(
-  class USWallmart extends Drive {
+  class USWalmart extends Drive {
     static get driveName() {
-      return "Wallmart";
+      return "Walmart";
     }
     static get domain() {
       return /walmart\.com$/;
