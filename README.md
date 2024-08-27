@@ -22,6 +22,11 @@ Adds the following information to the product pages:
 * [ ] Additives
 * [ ] Barcode
 
+## Get in touch
+* Page on the French version of Open Food Facts: https://fr.openfoodfacts.org/extension-pour-les-drives
+* Collaborative Coordination wikipage: https://wiki.openfoodfacts.org/Drive_OFF_-_Browser_extension_for_shopping
+* Slack channel: https://openfoodfacts.slack.com/messages/CCUPSBMNZ/
+
 ### Changes
 * [x] ES6+ refactor
 * [x] Modular Drive configs
