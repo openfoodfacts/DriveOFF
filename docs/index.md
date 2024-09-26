@@ -1,7 +1,7 @@
-﻿<img src="/DriveOff/img/icon.png"/>
+﻿<img src="/DriveOFF/img/icon.png"/>
 # Description
 
-Drive Off est une extension **open source** pour le navigateur Chrome (compatibilité Firefox en cours) vous permettant de mieux consommer en affichant en temps réel les informations nutritionnelles des produits que vous consultez sur les sites suivants:
+Drive OFF est une extension **open source** pour le navigateur Chrome (compatibilité Firefox en cours) vous permettant de mieux consommer en affichant en temps réel les informations nutritionnelles des produits que vous consultez sur les sites suivants:
 * www.auchandrive.fr
 * www.carrefourdrive.fr
 * www.leclercdrive.fr
@@ -10,22 +10,22 @@ Les informations sont affichées sur le bandeau Drive Off.
 
 ## Le bandeau
 
-Le bandeau Drive Off affiche les informations suivantes pour un produit donné:
+Le bandeau Drive OFF affiche les informations suivantes pour un produit donné:
 * Nutri-Score (qualité nutritionnelle d'un produit)
 * Groupe Nova (transformation d'un produit)
 * Taux pour 100g des nutriments (sucres, sels, graisses, graisses saturées) avec code couleur
 * Liste des additifs
 * Code barre du produit (pour scanner avec l'application Open Food Facts ou Yuka par exemple)
 
-<img src="/DriveOff/img/bandeau.png"/>
+<img src="/DriveOFF/img/bandeau.png"/>
 
 ## Les donn&eacute;es
 
-Drive Off ne pourrait exister sans le projet libre Open Food Facts. Je vous invite à contribuer via les apps [Android](https://android.openfoodfacts.org) et [iOS](https://ios.openfoodfacts.org) et à visiter la version web [Open Food Facts](https://fr.openfoodfacts.org)
+Drive OFF ne pourrait exister sans le projet libre Open Food Facts. Je vous invite à contribuer via les apps [Android](https://android.openfoodfacts.org) et [iOS](https://ios.openfoodfacts.org) et à visiter la version web [Open Food Facts](https://fr.openfoodfacts.org)
 
-# Installer Drive Off
+# Installer Drive OFF
 
-Drive Off est pour désormais en beta ouverte. Cliquer [ici](https://chrome.google.com/webstore/detail/drive-off/ngklhiipicmcedgamnopjkblbijbelnd) pour installer l'extension sur Chrome. La version firefox est en cours de développement. Rejoignez le [Groupe des testeurs](https://groups.google.com/forum/#!forum/driveoff_extension) pour partager vos retours.
+Drive OFF est pour désormais en beta ouverte. Cliquer [ici](https://chrome.google.com/webstore/detail/drive-off/ngklhiipicmcedgamnopjkblbijbelnd) pour installer l'extension sur Chrome. La version firefox est en cours de développement. Rejoignez le [Groupe des testeurs](https://groups.google.com/forum/#!forum/driveoff_extension) pour partager vos retours.
 
 # Etapes du projet
 
@@ -41,4 +41,3 @@ Vous pouvez contribuer de plusieus manière au développement de l'extension Dri
 * En communiquant autour du projet.
 
 D'avance merci !
-
