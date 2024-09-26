@@ -84,3 +84,9 @@ _ **DriveOFF** is available on the extension stores, but you can also do the ins
 * [ ] cora.fr
 * [x] intermarche.com
 * [ ] leclercdrive.fr
+
+## Contributors
+
+<a href="https://github.com/openfoodfacts/DriveOFF/graphs/contributors">
+  <img alt="List of contributors to this repository" src="https://contrib.rocks/image?repo=openfoodfacts/DriveOFF" />
+</a>
