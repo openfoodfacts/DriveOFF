@@ -1,6 +1,6 @@
 # DriveOFF
 
-WebExtension for estore (drive) using Open Food Facts Database
+WebExtension for e-stores (drive) using Open Food Facts Database
 
 ## Compatible Browsers
 
