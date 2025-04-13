@@ -36,6 +36,11 @@ Adds the following information to the product pages:
 
 The extension uses data from [Open Food Facts](https://world.openfoodfacts.org/) and the barcode generation library [jsBarcode](https://github.com/lindell/JsBarcode)
 
+## 🎨 Design & User interface
+- We strive to thoughfully design every feature before we move on to implementation, so that we respect Open Food Facts' graphic charter and nascent design system, while having efficient user flows.
+- [![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?logo=figma&logoColor=white) Mockups on the current app and future plans to discuss](https://www.figma.com/design/DHvAhrqU1TBaVkzyTcqXOT/DriveOFF---Chrome-extension-for-shopping?m=auto&t=tdB5zkxiDiU0bMVh-6)
+
+
 ## Build
 
 **NPM**
