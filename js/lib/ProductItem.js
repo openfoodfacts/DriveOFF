@@ -188,13 +188,11 @@ class ProductItem extends DOFFNode {
     return img;
   }
 
-  get nutriScoreImg () {
-    const img = document.createElement('img')
-    img.classList.add('driveoff_nutriscore')
-    img.width = 240
-    img.height = 130
-    img.src = chrome.runtime.getURL(`img/nutriscore-${this.nutriScoreGrade}.svg`)
-    return img
+  get nutriScoreImg() {
+    const img = document.createElement("img");
+    img.classList.add("driveoff_nutriscore");
+    img.width = 240;
+    img.height = 130;
     img.src = chrome.runtime.getURL(
       `img/nutriscore-${this.nutriScoreGrade}-new-en.svg`
     );
