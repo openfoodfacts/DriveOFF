@@ -82,13 +82,15 @@ _ **DriveOFF** is available on the extension stores, but you can also do the ins
 * Enjoy !
 
 ## List of compatible drives
-
+### France
 * [x] auchan.fr (*product pages only*)
 * [x] bio.coop (*product pages only*)
 * [x] carrefour.fr
 * [ ] cora.fr
 * [x] intermarche.com
 * [ ] leclercdrive.fr
+### United States
+### Canada
 
 ## Contributors
 
