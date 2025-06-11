@@ -227,6 +227,11 @@ class ProductItem extends DOFFNode {
 
       const ecoscore = this.greenScoreImg;
       ecoscore.alt = `Eco Score : ${this.ecoScoreGrade.toUpperCase()} ${
+        this.ecoscore_score
+          ? `(${Number(this.ecoscore_score).toFixed(2)} pts)`
+          : ""
+      }`;
+      el.scores.appendChild(ecoscore);
 
       el.scores.title = [nutriscore.alt, novascore.alt, ecoscore.alt].join('\n')
     }
