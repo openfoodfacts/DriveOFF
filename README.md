@@ -91,6 +91,8 @@ _ **DriveOFF** is available on the extension stores, but you can also do the ins
 * [ ] leclercdrive.fr
 ### United States
 ### Canada
+* [ ] Metro
+* [ ] SuperC
 
 ## Contributors
 
