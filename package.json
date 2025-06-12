@@ -28,5 +28,22 @@
       "overwriteDest": true
     },
     "artifactsDir": "./builds"
+  },
+  "standard": {
+    "globals": [ 
+      "chrome",
+      "DOFFNode",
+      "Drive",
+      "drivesList",
+      "fetch",
+      "Headers",
+      "MutationObserver",
+      "ProductList",
+      "ProductItem",
+      "slug"
+    ],
+    "ignore": [
+      "/js/external"
+    ]
   }
 }
