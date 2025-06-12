@@ -1,6 +1,6 @@
 # DriveOFF
 
-WebExtension for estore (drive) using Open Food Facts Database
+WebExtension for e-stores (drive) using Open Food Facts Database
 
 ## Compatible Browsers
 
@@ -8,21 +8,38 @@ WebExtension for estore (drive) using Open Food Facts Database
 * [x] Chromium
 * [x] Opera
 * [x] Vivaldi
-* [ ] Edge (*non testé*)
+* [ ] Edge (*not tested*)
 
 ## Introduction
 
-Fonctionne avec une poignée de drive pour l'instant, mais utilisant un système [modulaire](./docs/drive_config.md)  
-Ajoute sur les fiches produits les informations suivantes :
+Works with a few e-commerce websites for now, but using a [modular](./docs/drive_config.md) system
+Adds the following information to the product pages:
 
-* [x] Nutri-Score (qualité nutritionnelle de A à E)
-* [x] Groupe Nova (transformation des aliments de 1 à 4)
-* [x] Eco Score (impact environnemental de A à E)
-* [ ] Taux de nutriments
-* [ ] Additifs
-* [ ] Code-barre
+* [x] Nutri-Score (nutritional quality from A to E)
+* [x] Nova group (food processing from 1 to 4)
+* [x] Eco Score (environmental impact from A to E)
+* [ ] Nutrient levels
+* [ ] Additives
+* [ ] Barcode
 
-L'extension utilise les données d'[Open Food Facts](https://fr.openfoodfacts.org/) et la librairie de génération de code-barres [jsBarcode](https://github.com/lindell/JsBarcode)
+## Get in touch
+* Page on the French version of Open Food Facts: https://fr.openfoodfacts.org/extension-pour-les-drives
+* Collaborative Coordination wikipage: https://wiki.openfoodfacts.org/Drive_OFF_-_Browser_extension_for_shopping
+* Slack channel: https://openfoodfacts.slack.com/messages/CCUPSBMNZ/
+
+### Changes
+* [x] ES6+ refactor
+* [x] Modular Drive configs
+* [x] Nutri/Nova/Eco Scores widget injection into products header
+* [x] Fallback to search results when product didn't have EAN (disabled)
+* [x] Nutri/Nova/Eco Scores widget injection into catalogues and lists
+
+The extension uses data from [Open Food Facts](https://world.openfoodfacts.org/) and the barcode generation library [jsBarcode](https://github.com/lindell/JsBarcode)
+
+## 🎨 Design & User interface
+- We strive to thoughfully design every feature before we move on to implementation, so that we respect Open Food Facts' graphic charter and nascent design system, while having efficient user flows.
+- [![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?logo=figma&logoColor=white) Mockups on the current app and future plans to discuss](https://www.figma.com/design/DHvAhrqU1TBaVkzyTcqXOT/DriveOFF---Chrome-extension-for-shopping?m=auto&t=tdB5zkxiDiU0bMVh-6)
+
 
 ## Build
 
@@ -42,34 +59,44 @@ yarn build
 
 ## Installation
 
-_**DriveOFF** n'est pas encore disponible sur les store d'extensions, l'installation se fait depuis les sources._
+_ **DriveOFF** is available on the extension stores, but you can also do the installation from the sources._
 
-* Télécharger la dernière release
-* Décompresser l'archive à l'endroit de votre choix
+* Download the latest release
+* Unzip the archive to the location of your choice
 
 ### Chromium
 
-* Lancer **Chromium**, **Chrome**, **Vivaldi** ou **Opera**
-* Taper dans la barre d'URL `chrome://extensions`
-* Activer le mode développeur
-* Cliquer sur "Chargez l'extension non empaquetée"
-* Sélectionner le dossier où vous avez décompressé la release téléchargée.
+* Launch **Chromium**, **Chrome**, **Vivaldi** or **Opera**
+* Type in the URL bar `chrome://extensions`
+* Activate developer mode
+* Click on "Load the unpackaged extension"
+* Select the folder where you unzipped the downloaded release.
 * Enjoy !
 
 ### Firefox
 
-* Lancer **Firefox**
-* Taper dans la barre d'URL `about:debugging#/runtime/this-firefox`
-* Cliquer sur "Charger un module complémentaire temporaire…"
-* Ouvrir le fichier `manifest.json` dans le dossier où vous avez décompressé la release téléchargée.
+* Launch **Firefox**
+* Type in the URL bar `about:debugging#/runtime/this-firefox`
+* Click on "Load a temporary add-on ..."
+* Open the `manifest.json` file in the folder where you unzipped the downloaded release.
 * Enjoy !
 
-## Liste des drive compatibles
-
-* [x] auchan.fr (*fiches produit uniquement*)
-* [x] bio.coop (*fiches produit uniquement*)
+## List of compatible drives
+### France
+* [x] auchan.fr (*product pages only*)
+* [x] bio.coop (*product pages only*)
 * [x] carrefour.fr
 * [ ] cora.fr
 * [x] coursesu.com  (*fiches produit uniquement*)
 * [x] intermarche.com
 * [ ] leclercdrive.fr
+### United States
+### Canada
+* [ ] Metro
+* [ ] SuperC
+
+## Contributors
+
+<a href="https://github.com/openfoodfacts/DriveOFF/graphs/contributors">
+  <img alt="List of contributors to this repository" src="https://contrib.rocks/image?repo=openfoodfacts/DriveOFF" />
+</a>

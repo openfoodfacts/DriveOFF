@@ -172,12 +172,14 @@ class ProductItem extends DOFFNode {
     return img
   }
 
-  get ecoScoreImg () {
+  get greenScoreImg () {
     const img = document.createElement('img')
-    img.classList.add('driveoff_ecoscore')
+    img.classList.add('driveoff_greenscore')
     img.width = 274
     img.height = 130
-    img.src = chrome.runtime.getURL(`img/ecoscore-${this.ecoScoreGrade}.svg`)
+    img.src = chrome.runtime.getURL(
+      `img/green-score-${this.ecoScoreGrade}.svg`
+    )
     return img
   }
 
@@ -186,7 +188,9 @@ class ProductItem extends DOFFNode {
     img.classList.add('driveoff_nutriscore')
     img.width = 240
     img.height = 130
-    img.src = chrome.runtime.getURL(`img/nutriscore-${this.nutriScoreGrade}.svg`)
+    img.src = chrome.runtime.getURL(
+      `img/nutriscore-${this.nutriScoreGrade}-new-en.svg`
+    )
     return img
   }
 
@@ -216,8 +220,12 @@ class ProductItem extends DOFFNode {
       novascore.alt = `Nova : ${this.novaGrade}`
       el.scores.appendChild(novascore)
 
-      const ecoscore = this.ecoScoreImg
-      ecoscore.alt = `Eco Score : ${this.ecoScoreGrade.toUpperCase()} ${this.ecoscore_score ? `(${Number(this.ecoscore_score).toFixed(2)} pts)` : ''}`
+      const ecoscore = this.greenScoreImg
+      ecoscore.alt = `Eco Score : ${this.ecoScoreGrade.toUpperCase()} ${
+        this.ecoscore_score
+          ? `(${Number(this.ecoscore_score).toFixed(2)} pts)`
+          : ''
+      }`
       el.scores.appendChild(ecoscore)
 
       el.scores.title = [nutriscore.alt, novascore.alt, ecoscore.alt].join('\n')

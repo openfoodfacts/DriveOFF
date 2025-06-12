@@ -10,7 +10,7 @@
   "private": true,
   "devDependencies": {
     "standard": "^16.0.3",
-    "web-ext": "^5.5.0"
+    "web-ext": "^8.6.0"
   },
   "scripts": {
     "start": "web-ext run --target=firefox-desktop --target=chromium --verbose",
@@ -24,5 +24,22 @@
       "overwriteDest": true
     },
     "artifactsDir": "./builds"
+  },
+  "standard": {
+    "globals": [ 
+      "chrome",
+      "DOFFNode",
+      "Drive",
+      "drivesList",
+      "fetch",
+      "Headers",
+      "MutationObserver",
+      "ProductList",
+      "ProductItem",
+      "slug"
+    ],
+    "ignore": [
+      "/src/js/external"
+    ]
   }
 }
