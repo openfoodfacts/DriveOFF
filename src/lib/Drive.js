@@ -2,10 +2,12 @@
 const drivesList = []
 
 // Base class to extends per drive
-// Surveille les élements de produit et de listes
 class Drive extends DOFFNode {
   static detect () {
-    const Driver = drivesList.find(drive => drive.domain.test(document.domain))
+    const Driver = drivesList.find(drive => {
+      const drray = Array.isArray(drive.domain) ? drive.domain : [drive.domain]
+      return drray.find(dr => dr.test(document.domain))
+    })
     if (Driver) {
       console.info('[DriveOFF] Drive detected:', Driver.driveName, `(${document.domain})`)
       return new Driver()
