@@ -22,7 +22,7 @@ drivesList.push(class FrIntermarche extends Drive {
           '.productList__grid'
         ],
         product: {
-          base: '.product',
+          base: ['.product'],
           name: '.product__name',
           mainDescription: '.product__texts',
           ean: base => {

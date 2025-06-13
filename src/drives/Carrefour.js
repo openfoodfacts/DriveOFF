@@ -23,7 +23,7 @@ drivesList.push(class FrCarrefour extends Drive {
           '.recommendations'
         ],
         product: {
-          base: 'article',
+          base: ['article'],
           name: 'h2',
           mainDescription: '&',
           ean: base => {

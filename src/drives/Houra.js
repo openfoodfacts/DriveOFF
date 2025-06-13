@@ -24,9 +24,7 @@ drivesList.push(class FrHoura extends Drive {
           '.articles'
         ],
         product: {
-          base: [
-            '.bloc_article_float'
-          ],
+          base: ['.bloc_article_float'],
           name: '.bloc_nom_marque',
           mainDescription: '.artBas',
           ean: base => {

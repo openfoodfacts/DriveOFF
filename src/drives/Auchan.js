@@ -30,7 +30,7 @@ drivesList.push(class FrAuchan extends Drive {
           '.product-carousel__container'
         ],
         product: {
-          base: 'article',
+          base: ['article'],
           name: '.product-thumbnail__description',
           mainDescription: '.product-thumbnail__details-wrapper'
         }
