@@ -188,7 +188,7 @@ class ProductItem extends DOFFNode {
     img.width = 240
     img.height = 130
     img.src = chrome.runtime.getURL(
-      `img/nutriscore-${this.nutriScoreGrade}-new-en.svg`
+      `img/nutriscore-${this.nutriScoreGrade}.svg`
     )
     return img
   }
