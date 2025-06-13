@@ -22,7 +22,6 @@ const uselessWords = [
   'g', 'cl', 'kg', 'ml'
 ]
 
-// Surveille les changements dans un produit pour afficher les données dès que possible
 class ProductItem extends DOFFNode {
   constructor (data) {
     super(data)
