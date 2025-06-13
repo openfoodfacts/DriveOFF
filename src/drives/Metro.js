@@ -1,6 +1,6 @@
 drivesList.push(class FrMetro extends Drive {
   static get driveName () { return 'Metro' }
-  static get domain () { return /metro\.ca$/ }
+  static get domain () { return [/metro\.ca$/, /superc\.ca$/] }
   static get lang () { return 'fr' }
   static get country () { return 'canada' }
 
