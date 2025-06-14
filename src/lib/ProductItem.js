@@ -176,9 +176,7 @@ class ProductItem extends DOFFNode {
     img.classList.add('driveoff_greenscore')
     img.width = 274
     img.height = 130
-    img.src = chrome.runtime.getURL(
-      `img/green-score-${this.ecoScoreGrade}.svg`
-    )
+    img.src = chrome.runtime.getURL(`img/green-score-${this.greenScoreGrade}.svg`)
     return img
   }
 
@@ -187,9 +185,7 @@ class ProductItem extends DOFFNode {
     img.classList.add('driveoff_nutriscore')
     img.width = 240
     img.height = 130
-    img.src = chrome.runtime.getURL(
-      `img/nutriscore-${this.nutriScoreGrade}.svg`
-    )
+    img.src = chrome.runtime.getURL(`img/nutriscore-${this.nutriScoreGrade}.svg`)
     return img
   }
 

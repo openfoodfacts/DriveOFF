@@ -1,4 +1,3 @@
-// Surveille les nouveaux produits dans une liste
 class ProductList extends DOFFNode {
   constructor (data) {
     super(data)
