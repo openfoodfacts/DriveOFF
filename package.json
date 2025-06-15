@@ -1,6 +1,6 @@
 {
   "name": "driveoff",
-  "version": "0.5.0.0",
+  "version": "0.6.0-rc1",
   "license": "GPL-2.0",
   "repository": "git@github.com:openfoodfacts/DriveOFF.git",
   "author": "Clovis Gauzy <github.788acf@clovisgauzy.fr>",
