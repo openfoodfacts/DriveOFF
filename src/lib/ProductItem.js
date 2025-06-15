@@ -162,6 +162,10 @@ class ProductItem extends DOFFNode {
     return this.ecoscore_grade
   }
 
+  get greenScoreGrade () {
+    return this.ecoScoreGrade
+  }
+
   get novaImg () {
     const img = document.createElement('img')
     img.classList.add('driveoff_novascore')
@@ -215,15 +219,15 @@ class ProductItem extends DOFFNode {
       novascore.alt = `Nova : ${this.novaGrade}`
       el.scores.appendChild(novascore)
 
-      const ecoscore = this.greenScoreImg
-      ecoscore.alt = `Eco Score : ${this.ecoScoreGrade.toUpperCase()} ${
-        this.ecoscore_score
-          ? `(${Number(this.ecoscore_score).toFixed(2)} pts)`
+      const greenscore = this.greenScoreImg
+      greenscore.alt = `Green Score : ${this.greenScoreGrade.toUpperCase()} ${
+        this.greenscore_score
+          ? `(${Number(this.greenscore_score).toFixed(2)} pts)`
           : ''
       }`
-      el.scores.appendChild(ecoscore)
+      el.scores.appendChild(greenscore)
 
-      el.scores.title = [nutriscore.alt, novascore.alt, ecoscore.alt].join('\n')
+      el.scores.title = [nutriscore.alt, novascore.alt, greenscore.alt].join('\n')
     }
   }
 }
