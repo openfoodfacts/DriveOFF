@@ -90,6 +90,7 @@ _ **DriveOFF** is available on the extension stores, but you can also do the ins
 * [x] intermarche.com
 * [ ] leclercdrive.fr
 ### United States
+* [x] walmart.com (*product pages only*)
 ### Canada
 * [ ] Metro
 * [ ] SuperC
