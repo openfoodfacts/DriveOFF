@@ -30,6 +30,7 @@
         "/js/drives/Intermarche.js",
         "/js/drives/Metro.js",
         "/js/drives/SuperC.js",
+        "/js/drives/Walmart.js",
         "/js/external/jbarcode.js",
         "/js/content_script.js"
       ]
