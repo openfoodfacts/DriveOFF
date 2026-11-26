@@ -51,3 +51,6 @@ node_modules
 *lock.json
 *.lock
 yarn-error.log
+
+# GitHub Actions lockfile
+!.github/workflows/actions.lock
