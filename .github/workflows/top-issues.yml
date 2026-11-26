@@ -9,6 +9,10 @@ on:
 #  push:
 #    branches:
 #      - top-issues
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
 jobs:
   ShowAndLabelTopIssues:
     name: Display and label top issues.
